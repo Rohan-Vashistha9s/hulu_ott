@@ -1,0 +1,17 @@
+.header{
+    color: rgba(22, 218, 142,1);
+    display: flex;
+    padding: 20px ;
+    justify-content: space-between;
+    overflow-x: scroll;
+    width: 100%;
+}
+.header__icons{
+    display: flex;
+    flex: 1;
+}
+.header > img{
+    width: 50px;
+    object-fit: contain;
+}
+
